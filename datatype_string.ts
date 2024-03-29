@@ -1,8 +1,8 @@
 //anything which is declared inside ' ' and " " is reffered as string in typescript
 
-let myname="kavi";
-let lastname='gayake';
-let greet="hello Everyone !! How Are You";
+let myname:string="kavi";
+let lastname:string='gayake';
+let greet:string="hello Everyone !! How Are You";
 console.log("Name:" + myname);
 console.log("Last Name: "+ lastname);
 console.log (greet + " In uppercase : " + greet.toUpperCase());
